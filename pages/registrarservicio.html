@@ -1,0 +1,53 @@
+<!-- Home -->
+<div data-role="page" id="pageregistrarservicio">
+    <div id="idpageheader" data-theme="e" data-role="header">
+        <a href="#" id="butonhome" data-role="button" data-inline="true" data-icon="home" data-mini="true" data-iconpos="notext"></a>   
+        <h3 id="idtxtheader">
+            Atlas Registrar Servicio
+        </h3>
+    </div>
+    <div data-role="content" data-theme="e">
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="idfecha">
+                    Fecha:
+                </label>
+                <input name="fecha" id="idfecha" type="datetime" />
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="idplaca">
+                Placa:
+            </label>
+            <select name="placa" id="idplaca">
+                <option value="1">tmp099</option>
+                <option value="2">sto086</option>
+                <option value="3">tmp073</option>
+            </select>   
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <label for="idkminicio">
+                    km inicio:
+                </label>
+                <input name="kminicio" id="idkminicio" type="text" />
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="idempresa">
+                Empresa:
+            </label>
+            <select name="empresa" id="idempresa">
+                <option value="1">une</option>
+                <option value="2">chec</option>
+                <option value="3">inmel</option>
+            </select>                
+        </div>        
+    </div>
+    <div id="idpagefooter" data-theme="a" data-role="footer">
+        <h1 id="idtextfooter">
+            epii.com.co
+            <input type="button" data-inline="true" data-icon="check" data-iconpos="left" value="registrar" id="butonregistrarservicio" data-mini="true" data-theme="e">
+        </h1>
+    </div>
+</div>
